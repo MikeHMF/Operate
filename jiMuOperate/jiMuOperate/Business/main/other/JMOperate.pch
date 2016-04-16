@@ -1,0 +1,24 @@
+//
+//  JMOperate.pch
+//  jiMuOperate
+//
+//  Created by 胡梅方 on 16/4/16.
+//  Copyright © 2016年 jinXinFengLi. All rights reserved.
+//
+
+#ifndef JMOperate_pch
+#define JMOperate_pch
+
+#import "Screen_header.h"
+#import "NetInterface.h"
+#import "ZDData.h"
+#import "Request.h"
+
+
+
+
+
+
+
+
+#endif 

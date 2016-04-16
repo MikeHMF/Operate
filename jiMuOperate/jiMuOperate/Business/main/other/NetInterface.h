@@ -18,9 +18,7 @@
 //测试
 #define ZDURLString @"http://192.168.1.101:81/"
 //#define ZDURLAPIString @"http://192.168.1.200:8080"
-//生产
-//#define ZDURLString @"http://izhendian.com:8003"
-//#define ZDURLAPIString @"http://www.izhendian.com"
+
 
 
 /**POST*/

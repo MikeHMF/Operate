@@ -80,6 +80,7 @@
 		308408891CBF9BF200A3B52E /* StrategyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrategyTableViewController.m; sourceTree = "<group>"; };
 		5354832E1CC0F2A000E157FC /* jiantouliang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "jiantouliang@2x.png"; path = "jiMuOperate/jiantouliang@2x.png"; sourceTree = SOURCE_ROOT; };
 		5354832F1CC0F2A000E157FC /* jiantouliang@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "jiantouliang@3x.png"; path = "jiMuOperate/jiantouliang@3x.png"; sourceTree = SOURCE_ROOT; };
+		536EAAB91CC1E6580066B542 /* JMOperate.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMOperate.pch; sourceTree = "<group>"; };
 		537EBDD71CBF3FFA00E77CD0 /* jiMuOperate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jiMuOperate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		537EBDDB1CBF3FFA00E77CD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		537EBDE41CBF3FFA00E77CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -387,8 +388,8 @@
 		537EBDF31CBF3FFB00E77CD0 /* jiMuOperateTests */ = {
 			isa = PBXGroup;
 			children = (
-				537EBDF41CBF3FFB00E77CD0 /* jiMuOperateTests.m */,
 				537EBDF61CBF3FFB00E77CD0 /* Info.plist */,
+				537EBDF41CBF3FFB00E77CD0 /* jiMuOperateTests.m */,
 			);
 			path = jiMuOperateTests;
 			sourceTree = "<group>";
@@ -464,6 +465,7 @@
 				537EBE1C1CBF407400E77CD0 /* AppDelegate.m */,
 				537EBE1D1CBF407400E77CD0 /* NetInterface.h */,
 				537EBE1E1CBF407400E77CD0 /* Screen_header.h */,
+				536EAAB91CC1E6580066B542 /* JMOperate.pch */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -837,6 +839,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = /Users/humeifang/Operate/jiMuOperate/jiMuOperate/Business/main/other/JMOperate.pch;
 				INFOPLIST_FILE = jiMuOperate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -851,6 +854,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = /Users/humeifang/Operate/jiMuOperate/jiMuOperate/Business/main/other/JMOperate.pch;
 				INFOPLIST_FILE = jiMuOperate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
